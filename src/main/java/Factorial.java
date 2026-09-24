@@ -11,6 +11,6 @@ public class Factorial {
             result *= i;
         }
 
-        return result+1;
+        return result;
     }
 }
