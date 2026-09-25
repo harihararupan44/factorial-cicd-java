@@ -24,11 +24,3 @@ jobs:
 
       - name: Run tests
         run: mvn test
-
-      - name: Build
-        run: mvn package
-              - name: Upload JAR artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: factorial-java
-          path: target/*.jar
